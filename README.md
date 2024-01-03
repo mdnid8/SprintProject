@@ -5,7 +5,7 @@ Data Science program, Winter 2023.
 The EV Charging Stations industry is expanding as people increasingly adopt electric vehicles for various reasons. Palo Alto stands out as one of the few cities equipped with EV charging stations to cater to the growing number of EV drivers. These charging stations have a significant impact on reducing greenhouse gas emissions, saving gasoline, and contributing to other positive environmental aspects. Moreover, EV charging stations prove to be profitable for business owners.
 
 Importantly, the availability of charging stations does not necessarily equate to high costs, as many stations offer free charging services. Leveraging the dataset, our goal is to construct a model capable of predicting the benefits of charging stations for the city of Palo Alto.
-Please click link to access dataset <a href='https://www.kaggle.com/code/prasaddevh/eda-evchargingpaloaltoca'>
+<a href='https://www.kaggle.com/code/prasaddevh/eda-evchargingpaloaltoca'>Click here to access the dataset</a>
 
 ## Technologies
 * Jupyternotebook
