@@ -7,13 +7,13 @@ Data Science program, Winter 2023.
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li><a href="#about-the-project">Project Introduction</a></li>
-	<li><a href="#EDA and Initial Models">EDA and Initial Models</a></li>
+	<li><a href="#EDA-and-Initial-Models">EDA</a></li>
 	<ul>
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
 	</ul>
      
-    <li><a href="#author">Author</a></li>
+    
    
   </ol>
 </details>
@@ -32,8 +32,8 @@ Originally, there were 30 columns to begin with, but some, like 'Currency' and '
 
 
 ### Data
-
-8 datasets covering all common charging behaviours are explored in this project:
+For now:
+1 datasets covering all common charging behaviours are explored in this project:
 * Public
 	* Palo Alto (California, USA)
 
