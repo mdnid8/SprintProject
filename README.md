@@ -7,14 +7,14 @@ Data Science program, Winter 2023.
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li><a href="#about-the-project">Project Introduction</a></li>
-	<li><a href="#getting-started">Getting Started</a></li>
+	<li><a href="#EDA and Initial Models">EDA and Initial Models</a></li>
 	<ul>
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
 	</ul>
-    <li><a href="#key-visual">Key visual</a></li>    
+     
     <li><a href="#author">Author</a></li>
-    <li><a href="#license">License</a></li>
+   
   </ol>
 </details>
 
