@@ -1,4 +1,5 @@
 # Brainstation_Capstone_Project
+# Predict the utilization of charging stations based on historical data
 Data Science program, Winter 2023.  
 
 
