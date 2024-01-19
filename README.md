@@ -40,6 +40,8 @@ For now:
 
 
 
+
+
 ### Prerequisites
 
 Here are the various R packages that can be directly installed in Rstudio as follows:
@@ -47,6 +49,27 @@ Here are the various R packages that can be directly installed in Rstudio as fol
 ```
 Jupyternotebook   -pip install notebook
 ````
+
+
+## Sprint 2
+### Introduction
+ 
+Previously, I lacked a clear direction for my dataset analysis. Following preprocessing, I determined the goal of employing regression models to predict energy consumption in three distinct postal codes within Palo Alto over a 10-year period. Despite grouping essential features by postal code on both daily and monthly bases, the regression models yielded poor performance, even when simplifying the task to predicting energy consumption based on the initial four energy-related columns. Consequently, I opted to explore the potential improvements offered by confusion matrices and scaling the existing data.
+In this notebook, our focus will be on logistic regression, with an emphasis on optimizing the model through various methods. The primary objective is to leverage historical data to learn patterns and construct a time series model that enhances predictive capabilities.
+
+### Data Dictionary
+
+| **Feature**  | **Description**                                                                                                                                                                                                                             |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Charging Time      | Distributed in average value                                                                                                                                                                                                                            |
+| Postal Code      | 94301, 94302,94306                                                                                                                                                                                                                   |
+| GreenHouseGasSave (kg)      | Kg                                                                                                                                    |
+| Energy Consumption (kWh) | Distributed in total sum                                                                                                                                                                          |
+| Gasoline Savings (gal)     | Distributed in total sum                                                              
+### EDA
+The dataset we've loaded is the same as in Sprint 1; however, for Sprint 2 model building, I've created a new dataset, df1. In this dataset, I've performed grouping for columns related to energy consumption. Additionally, I've crafted a straightforward time series model utilizing 'GreenHouseGasSaved (kg)' and 'Gasoline Savings (gal)'.
+
+
 
 
 
