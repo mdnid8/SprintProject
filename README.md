@@ -1,6 +1,7 @@
 # Brainstation_Capstone_Project
-# Total Charging Duration At EV Charging Stations In Palo Alto
-Data Science program, Winter 2023.  
+# Predictive Modeling and Optimization of Energy Consumption in Palo Alto City Using Charging Station Historical Data
+
+Data Science Program, Winter 2023
 
 
 <!-- TABLE OF CONTENTS -->
@@ -12,6 +13,7 @@ Data Science program, Winter 2023.
 	<ul>
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
+		<li><a href="#prerequisites">About The Project</a></li>
 	</ul>
      
     
@@ -21,10 +23,11 @@ Data Science program, Winter 2023.
 
 ## About The Project
 
-Palo Alto EV Charging Stations Usage And Other Related Factors
-The EV Charging Stations industry is expanding as people increasingly adopt electric vehicles for various reasons. Palo Alto stands out as one of the few cities equipped with EV charging stations to cater to the growing number of EV drivers. These charging stations have a significant impact on reducing greenhouse gas emissions, saving gasoline, and contributing to other positive environmental aspects. Moreover, EV charging stations prove to be profitable for business owners.
+The electric vehicle (EV) charging industry is undergoing significant expansion, driven by the increasing adoption of electric vehicles for various compelling reasons. Palo Alto stands as a pioneering city equipped with EV charging stations to accommodate the growing community of EV drivers. These charging stations play a crucial role in curbing greenhouse gas emissions, conserving gasoline, and fostering positive environmental impacts. Additionally, they present lucrative opportunities for business owners.
 
-Importantly, the availability of charging stations does not necessarily equate to high costs, as many stations offer free charging services. Leveraging the dataset, our goal is to construct a model capable of predicting the benefits of charging stations for the city of Palo Alto.
+However, the challenge faced by EV adaptation lies in the extended duration of charging and associated wait times. Many EV drivers lack real-time information about wait periods or the availability of charging stations. Addressing these concerns by developing a solution for predicting wait times and charging durations can immensely benefit EV customers. It would not only save time but also optimize the waiting experience, resulting in a more efficient charging process.
+
+It's noteworthy that the availability of charging stations doesn't necessarily translate to high costs, as numerous stations offer free charging services. Utilizing the provided dataset, our objective is to construct a predictive model that can anticipate the advantages of charging stations for the city of Palo Alto.
 <a href='https://www.kaggle.com/code/prasaddevh/eda-evchargingpaloaltoca'>Click here to access the dataset</a>
 
 ## EDA and Initial Models
@@ -33,10 +36,9 @@ Originally, there were 30 columns to begin with, but some, like 'Currency' and '
 
 
 ### Data
-For now:
-1 datasets covering all common charging behaviours are explored in this project:
-* Public
-	* Palo Alto (California, USA)
+For now: 1 dataset covering all common charging behaviors are explored in this project:
+
+Public Palo Alto (California, USA)
 
 
 
@@ -54,8 +56,7 @@ Jupyternotebook   -pip install notebook
 ## Sprint 2
 ### Introduction
  
-Previously, I lacked a clear direction for my dataset analysis. Following preprocessing, I determined the goal of employing regression models to predict energy consumption in three distinct postal codes within Palo Alto over a 10-year period. Despite grouping essential features by postal code on both daily and monthly bases, the regression models yielded poor performance, even when simplifying the task to predicting energy consumption based on the initial four energy-related columns. Consequently, I opted to explore the potential improvements offered by confusion matrices and scaling the existing data.
-In this notebook, our focus will be on logistic regression, with an emphasis on optimizing the model through various methods. The primary objective is to leverage historical data to learn patterns and construct a time series model that enhances predictive capabilities.
+Initially, I faced challenges in defining a clear direction for my dataset analysis. After preprocessing, I established the objective of employing regression models to forecast energy consumption in three specific postal codes within Palo Alto over a 10-year span. Despite organizing crucial features by postal code on both daily and monthly scales, the regression models exhibited subpar performance, even when simplifying the task to predicting energy consumption based on the initial four energy-related columns. Consequently, I decided to explore potential enhancements by utilizing confusion matrices and scaling the existing data. In this notebook, our focus centers on logistic regression, with a key emphasis on optimizing the model through various methods. The primary goal is to leverage historical data, discern patterns, and construct a time series model that significantly improves predictive capabilities.
 
 ### Data Dictionary
 
@@ -67,7 +68,21 @@ In this notebook, our focus will be on logistic regression, with an emphasis on 
 | Energy Consumption (kWh) | Distributed in total sum                                                                                                                                                                          |
 | Gasoline Savings (gal)     | Distributed in total sum                                                              
 ### EDA
-The dataset we've loaded is the same as in Sprint 1; however, for Sprint 2 model building, I've created a new dataset, df1. In this dataset, I've performed grouping for columns related to energy consumption. Additionally, I've crafted a straightforward time series model utilizing 'GreenHouseGasSaved (kg)' and 'Gasoline Savings (gal)'.
+Insights from the Linear Regression Model
+
+The features considered for the predictive model of total charging duration include:
+
+Fee (varied rates across different stations)
+Weekend charging indicator
+Weekday charging indicator
+Energy usage at charging stations (encompassing greenhouse gas saved and energy usage)
+Port type
+Port number
+Utilizing these features, the model predicts that the total duration to fully charge an electric vehicle is approximately 64 minutes. Notably, the accuracy of both the training and test data surpasses 90%, aligning with expectations given the model's foundation on these features.
+
+Insights from the Linear Regression Model
+
+The linear regression model adeptly captures a substantial portion of the variability in the target variable. Additionally, explorations into Ridge and Lasso regression, as well as time series models, were undertaken, although they did not yield significant additional insights.
 
 
 
