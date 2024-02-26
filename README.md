@@ -1,5 +1,5 @@
 # Brainstation_Capstone_Project
-# Predictive Modeling and Optimization of Energy Consumption in Palo Alto City Using Charging Station Historical Data
+# Optimizing Wait Times at EV Charging Stations in Palo Alto
 
 Data Science Program, Winter 2023
 
