@@ -87,12 +87,6 @@ Few key found based on data set
 ![EDA demo](img/EDA%20demo.jpg)
 
 
-# License
-[(Back to top)](#table-of-contents)
-
-This project is designed for free and open use.
-
-[GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
 
 
 
