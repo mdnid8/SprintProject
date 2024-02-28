@@ -13,7 +13,7 @@ Data Science Program, Winter 2023
 	<ul>
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
-		<li><a href="#prerequisites">About The Project</a></li>
+		
 	</ul>
      
     
@@ -73,43 +73,13 @@ Public Palo Alto (California, USA)
 
 ### Prerequisites
 
-Here are the various R packages that can be directly installed in Rstudio as follows:
+Please note all EDA done in jupyter notebook using python code. If you want to download jupyter notebook please install in command line:
 
 ```
 Jupyternotebook   -pip install notebook
 ````
 
 
-## Sprint 2
-### Introduction
- 
-Initially, I faced challenges in defining a clear direction for my dataset analysis. After preprocessing, I established the objective of employing regression models to forecast energy consumption in three specific postal codes within Palo Alto over a 10-year span. Despite organizing crucial features by postal code on both daily and monthly scales, the regression models exhibited subpar performance, even when simplifying the task to predicting energy consumption based on the initial four energy-related columns. Consequently, I decided to explore potential enhancements by utilizing confusion matrices and scaling the existing data. In this notebook, our focus centers on logistic regression, with a key emphasis on optimizing the model through various methods. The primary goal is to leverage historical data, discern patterns, and construct a time series model that significantly improves predictive capabilities.
-
-### Data Dictionary
-
-| **Feature**  | **Description**                                                                                                                                                                                                                             |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Charging Time      | Distributed in average value                                                                                                                                                                                                                            |
-| Postal Code      | 94301, 94302,94306                                                                                                                                                                                                                   |
-| GreenHouseGasSave (kg)      | Kg                                                                                                                                    |
-| Energy Consumption (kWh) | Distributed in total sum                                                                                                                                                                          |
-| Gasoline Savings (gal)     | Distributed in total sum                                                              
-### EDA
-Insights from the Linear Regression Model
-
-The features considered for the predictive model of total charging duration include:
-
-Fee (varied rates across different stations)
-Weekend charging indicator
-Weekday charging indicator
-Energy usage at charging stations (encompassing greenhouse gas saved and energy usage)
-Port type
-Port number
-Utilizing these features, the model predicts that the total duration to fully charge an electric vehicle is approximately 64 minutes. Notably, the accuracy of both the training and test data surpasses 90%, aligning with expectations given the model's foundation on these features.
-
-Insights from the Linear Regression Model
-
-The linear regression model adeptly captures a substantial portion of the variability in the target variable. Additionally, explorations into Ridge and Lasso regression, as well as time series models, were undertaken, although they did not yield significant additional insights.
 
 
 
