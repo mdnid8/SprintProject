@@ -13,7 +13,7 @@ Data Science Program, Winter 2023
 	<ul>
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
-		
+	<li><a href="#Demo">Demo</a></li>	
 	
      
     
@@ -65,7 +65,7 @@ Additionally, explorations into Ridge and Lasso regression, as well as time seri
 ### Data
 For now: 1 dataset covering all common charging behaviors are explored in this project:
 
-Public Palo Alto (California, USA)
+Palo Alto (California, USA)
 
 
 
@@ -79,8 +79,9 @@ Please note all EDA done in jupyter notebook using python code. If you want to d
 Jupyternotebook   -pip install notebook
 ````
 
+## Demo
 
-
+Based on the dataset, 2017 emerges as the year when charging stations generated a significant revenue stream. The focal point is 2017, and the analysis focuses on wait times at charging stations.
 
 
 
