@@ -83,6 +83,7 @@ Jupyternotebook   -pip install notebook
 
 Based on the dataset, 2017 emerges as the year when charging stations generated a significant revenue stream. The focal point is 2017, and the analysis focuses on wait times at charging stations.
 
+Few key found based on data set
 
 
 
