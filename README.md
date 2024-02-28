@@ -1,4 +1,4 @@
-# Brainstation_Capstone_Project
+
 # Optimizing Wait Times at EV Charging Stations in Palo Alto
 
 Data Science Program, Winter 2023
@@ -8,8 +8,8 @@ Data Science Program, Winter 2023
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li><a href="#about-the-project">Project Introduction</a></li>
-	<li><a href="#EDA-and-Initial-Models">EDA</a></li>
+    <li><a href="#project-introduction">Project Introduction</a></li>
+	<li><a href="#eda-and-initial-models">EDA and Initial Models</a></li>
 	<ul>
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
@@ -21,7 +21,7 @@ Data Science Program, Winter 2023
   </ol>
 </details>
 
-## About The Project
+## Project Introduction
 
 The electric vehicle (EV) charging industry is undergoing significant expansion, driven by the increasing adoption of electric vehicles for various compelling reasons. Palo Alto stands as a pioneering city equipped with EV charging stations to accommodate the growing community of EV drivers. These charging stations play a crucial role in curbing greenhouse gas emissions, conserving gasoline, and fostering positive environmental impacts. Additionally, they present lucrative opportunities for business owners.
 
