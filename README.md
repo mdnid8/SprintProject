@@ -14,7 +14,7 @@ Data Science Program, Winter 2023
 	<li><a href="#data">Data</a></li>
 	<li><a href="#prerequisites">Prerequisites</a></li>
 		
-	</ul>
+	
      
     
    
